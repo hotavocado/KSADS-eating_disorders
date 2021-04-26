@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/hotavocado/KSADS-eating_disorders/master/activities/",
+        "eating_disorders": {
+            "@id": "activity_path:eating_disorders/eating_disorders_schema",
+            "@type": "@id"
+        }
+    }
+}

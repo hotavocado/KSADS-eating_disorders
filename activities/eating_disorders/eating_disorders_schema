@@ -1,0 +1,511 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-eating_disorders/master/activities/eating_disorders/eating_disorders_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "eating_disorders_schema",
+    "skos:prefLabel": "Eating Disorders",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "eating_title",
+                "isAbout": "eating_title",
+                "isVis": true
+            },
+            {
+                "variableName": "ceat0",
+                "isAbout": "ceat0",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat001",
+                "isAbout": "dceat001",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat002",
+                "isAbout": "dceat002",
+                "isVis": "dceat001 == '1'"
+            },
+            {
+                "variableName": "ceat3",
+                "isAbout": "ceat3",
+                "isVis": "dceat001 == '1'"
+            },
+            {
+                "variableName": "ceat4",
+                "isAbout": "ceat4",
+                "isVis": "dceat001 == '1'"
+            },
+            {
+                "variableName": "dceat008",
+                "isAbout": "dceat008",
+                "isVis": "dceat001 == '1'"
+            },
+            {
+                "variableName": "dceat009",
+                "isAbout": "dceat009",
+                "isVis": "dceat001 == '1'"
+            },
+            {
+                "variableName": "dceat010",
+                "isAbout": "dceat010",
+                "isVis": "dceat009 == '0'"
+            },
+            {
+                "variableName": "dceat011",
+                "isAbout": "dceat011",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat012",
+                "isAbout": "dceat012",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat013",
+                "isAbout": "dceat013",
+                "isVis": "dceat012 == '1'"
+            },
+            {
+                "variableName": "dceat014",
+                "isAbout": "dceat014",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat015",
+                "isAbout": "dceat015",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat016",
+                "isAbout": "dceat016",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat017",
+                "isAbout": "dceat017",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat018",
+                "isAbout": "dceat018",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat019",
+                "isAbout": "dceat019",
+                "isVis": "dceat018 == '1'"
+            },
+            {
+                "variableName": "dceat020",
+                "isAbout": "dceat020",
+                "isVis": "dceat011 == '1' || dceat012 == '1' || dceat014 == '1' || dceat015 == '1' || dceat016 == '1' || dceat017 == '1' ||  dceat018 == '1'"
+            },
+            {
+                "variableName": "ceat11",
+                "isAbout": "ceat11",
+                "isVis": "dceat011 == '1' || dceat012 == '1' || dceat014 == '1' || dceat015 == '1' || dceat016 == '1' || dceat017 == '1' ||  dceat018 == '1'"
+            },
+            {
+                "variableName": "ceat12",
+                "isAbout": "ceat12",
+                "isVis": "dceat011 == '1' || dceat012 == '1' || dceat014 == '1' || dceat015 == '1' || dceat016 == '1' || dceat017 == '1' ||  dceat018 == '1'"
+            },
+            {
+                "variableName": "dceat026",
+                "isAbout": "dceat026",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat027",
+                "isAbout": "dceat027",
+                "isVis": true
+            },
+            {
+                "variableName": "dceat028",
+                "isAbout": "dceat028",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat029",
+                "isAbout": "dceat029",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat030",
+                "isAbout": "dceat030",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "ceat17",
+                "isAbout": "ceat17",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat033",
+                "isAbout": "dceat033",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat036",
+                "isAbout": "dceat036",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat037",
+                "isAbout": "dceat037",
+                "isVis": "dceat036 == '1' && dceat001 == '1'"
+            },
+            {
+                "variableName": "dceat038",
+                "isAbout": "dceat038",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat039",
+                "isAbout": "dceat039",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat040",
+                "isAbout": "dceat040",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat041",
+                "isAbout": "dceat041",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "ceat23a",
+                "isAbout": "ceat23a",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat042",
+                "isAbout": "dceat042",
+                "isVis": "ceat23a == '1'"
+            },
+            {
+                "variableName": "dceat043",
+                "isAbout": "dceat043",
+                "isVis": "dceat042 == '1'"
+            },
+            {
+                "variableName": "dceat044",
+                "isAbout": "dceat044",
+                "isVis": "dceat042 == '1'"
+            },
+            {
+                "variableName": "dceat045",
+                "isAbout": "dceat045",
+                "isVis": "dceat042 == '1'"
+            },
+            {
+                "variableName": "dceat046",
+                "isAbout": "dceat046",
+                "isVis": "dceat042 == '1'"
+            },
+            {
+                "variableName": "dceat047",
+                "isAbout": "dceat047",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat048",
+                "isAbout": "dceat048",
+                "isVis": "dceat047 == '1'"
+            },
+            {
+                "variableName": "dceat049",
+                "isAbout": "dceat049",
+                "isVis": "dceat047 == '1'"
+            },
+            {
+                "variableName": "dceat050",
+                "isAbout": "dceat050",
+                "isVis": "dceat049 == '1'"
+            },
+            {
+                "variableName": "ceat29",
+                "isAbout": "ceat29",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat053",
+                "isAbout": "dceat053",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "dceat054",
+                "isAbout": "dceat054",
+                "isVis": "dceat053 == '0'"
+            },
+            {
+                "variableName": "dceat055",
+                "isAbout": "dceat055",
+                "isVis": "dceat027 == '1'"
+            },
+            {
+                "variableName": "ceat32",
+                "isAbout": "ceat32",
+                "isVis": "dceat055 == '1'"
+            },
+            {
+                "variableName": "ceat33",
+                "isAbout": "ceat33",
+                "isVis": "dceat001 == 0 &&  dceat011 == 0 && dceat012 == 0 && dceat014 == 0 && dceat015 == 0 && dceat016 == 0 && dceat017 == 0 && dceat018 == 0 && dceat026 == 0 && dceat027 == 0"
+            },
+            {
+                "variableName": "ceat35",
+                "isAbout": "ceat35",
+                "isVis": "ceat33 !== 1"
+            },
+            {
+                "variableName": "dceat059",
+                "isAbout": "dceat059",
+                "isVis": "ceat33 !== 1"
+            },
+            {
+                "variableName": "dceat060",
+                "isAbout": "dceat060",
+                "isVis": "ceat33 !== 1"
+            },
+            {
+                "variableName": "dceat061",
+                "isAbout": "dceat061",
+                "isVis": "ceat33 !== 1"
+            },
+            {
+                "variableName": "dceat062",
+                "isAbout": "dceat062",
+                "isVis": "dceat061 == '1'"
+            },
+            {
+                "variableName": "dceat063",
+                "isAbout": "dceat063",
+                "isVis": "ceat33 !== 1"
+            },
+            {
+                "variableName": "dceat064",
+                "isAbout": "dceat064",
+                "isVis": "ceat33 !== 1"
+            },
+            {
+                "variableName": "ceat37a",
+                "isAbout": "ceat37a",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat065",
+                "isAbout": "dceat065",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat066",
+                "isAbout": "dceat066",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat067",
+                "isAbout": "dceat067",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat068",
+                "isAbout": "dceat068",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat069",
+                "isAbout": "dceat069",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat070",
+                "isAbout": "dceat070",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat072",
+                "isAbout": "dceat072",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat073",
+                "isAbout": "dceat073",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat074",
+                "isAbout": "dceat074",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat075",
+                "isAbout": "dceat075",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat076",
+                "isAbout": "dceat076",
+                "isVis": "dceat075 == '0'"
+            },
+            {
+                "variableName": "dceat077",
+                "isAbout": "dceat077",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "ceat39",
+                "isAbout": "ceat39",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat081",
+                "isAbout": "dceat081",
+                "isVis": "ceat39.includes(3)"
+            },
+            {
+                "variableName": "dceat082",
+                "isAbout": "dceat082",
+                "isVis": "dceat064 == '1'"
+            },
+            {
+                "variableName": "dceat083",
+                "isAbout": "dceat083",
+                "isVis": "dceat082 == '1'"
+            },
+            {
+                "variableName": "dceat084",
+                "isAbout": "dceat084",
+                "isVis": "dceat082 == '1'"
+            },
+            {
+                "variableName": "dceat085",
+                "isAbout": "dceat085",
+                "isVis": "dceat082 == '1'"
+            },
+            {
+                "variableName": "dceat086",
+                "isAbout": "dceat086",
+                "isVis": "dceat082 == '1'"
+            },
+            {
+                "variableName": "dceat087",
+                "isAbout": "dceat087",
+                "isVis": "dceat082 == '1'"
+            },
+            {
+                "variableName": "dceat088",
+                "isAbout": "dceat088",
+                "isVis": "dceat082 == '1'"
+            },
+            {
+                "variableName": "dceat089",
+                "isAbout": "dceat089",
+                "isVis": "dceat082 == '1'"
+            },
+            {
+                "variableName": "dceat090",
+                "isAbout": "dceat090",
+                "isVis": "dceat082 == '1'"
+            },
+            {
+                "variableName": "ceat_end",
+                "isAbout": "ceat_end",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "eating_title",
+            "ceat0",
+            "dceat001",
+            "dceat002",
+            "ceat3",
+            "ceat4",
+            "dceat008",
+            "dceat009",
+            "dceat010",
+            "dceat011",
+            "dceat012",
+            "dceat013",
+            "dceat014",
+            "dceat015",
+            "dceat016",
+            "dceat017",
+            "dceat018",
+            "dceat019",
+            "dceat020",
+            "ceat11",
+            "ceat12",
+            "dceat026",
+            "dceat027",
+            "dceat028",
+            "dceat029",
+            "dceat030",
+            "ceat17",
+            "dceat033",
+            "dceat036",
+            "dceat037",
+            "dceat038",
+            "dceat039",
+            "dceat040",
+            "dceat041",
+            "ceat23a",
+            "dceat042",
+            "dceat043",
+            "dceat044",
+            "dceat045",
+            "dceat046",
+            "dceat047",
+            "dceat048",
+            "dceat049",
+            "dceat050",
+            "ceat29",
+            "dceat053",
+            "dceat054",
+            "dceat055",
+            "ceat32",
+            "ceat33",
+            "ceat35",
+            "dceat059",
+            "dceat060",
+            "dceat061",
+            "dceat062",
+            "dceat063",
+            "dceat064",
+            "ceat37a",
+            "dceat065",
+            "dceat066",
+            "dceat067",
+            "dceat068",
+            "dceat069",
+            "dceat070",
+            "dceat072",
+            "dceat073",
+            "dceat074",
+            "dceat075",
+            "dceat076",
+            "dceat077",
+            "ceat39",
+            "dceat081",
+            "dceat082",
+            "dceat083",
+            "dceat084",
+            "dceat085",
+            "dceat086",
+            "dceat087",
+            "dceat088",
+            "dceat089",
+            "dceat090",
+            "ceat_end"
+        ],
+        "shuffle": false
+    }
+}

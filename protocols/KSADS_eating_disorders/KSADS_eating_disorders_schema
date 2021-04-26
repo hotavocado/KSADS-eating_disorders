@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-eating_disorders/master/protocols/KSADS_eating_disorders/KSADS_eating_disorders_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "KSADS_eating_disorders_schema",
+    "skos:prefLabel": "Eating Disorders",
+    "schema:description": "Eating Disorders section for KSADS interview",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/KSADS-eating_disorders/master/protocols/KSADS_eating_disorders/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "eating_disorders",
+                "isAbout": "eating_disorders",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "eating_disorders"
+        ],
+        "shuffle": false
+    }
+}
